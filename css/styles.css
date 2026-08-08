@@ -39,3 +39,7 @@ ol.roman-list li::marker {
     align-items: center;
     text-align: center;
 }
+.header-center h1 {
+    font-variant: small-caps;
+    letter-spacing: 0.05em;
+}
