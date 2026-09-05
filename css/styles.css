@@ -1,0 +1,61 @@
+body {
+    margin: 1em auto;
+    max-width: 50em;
+    padding: 0.62em;
+    font: 1.2em/1.62 serif;
+    background-color: #21180d;
+    color: #f9f8cc;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;    
+    color: #cfba58;
+}
+
+h1, h2 {
+    font-variant: small-caps;
+    letter-spacing: 0.05em;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #f9f8cc;
+    margin: 0.5em 0 1em 0;
+    opacity: 0.4;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a:link {
+    color: #cfba58;
+}
+
+a:hover {
+    color: #f9f8cc;
+}
+
+a:visited {
+    color: #cfba58;
+}
+
+a:active {
+    color: #f9f8cc;
+}
+
+ol.roman-list {
+    list-style-type: upper-roman;
+}
+
+ol.roman-list li::marker {
+    color: #cfba58;
+}
+
+.header-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
